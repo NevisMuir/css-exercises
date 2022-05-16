@@ -27,6 +27,9 @@ body {
 .sidebar {
   width: 300px;
   background: royalblue;
+  flex: 0 0 auto;
+  padding:16px;
+  
 }
 
 .card {
@@ -43,6 +46,8 @@ a {
   text-decoration: none;
   color:white;
   font-size: 24px;
+ display:flex;
+  margin: 10px 0px;
 }
 
 .content {
@@ -50,5 +55,13 @@ a {
   padding: 32px;
   flex-wrap:wrap;
   gap:20px;
+}
+
+.frame {
+  display:flex;
+}
+
+ul {
+  list-style: none;
 }
 
